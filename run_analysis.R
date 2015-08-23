@@ -49,4 +49,11 @@ data <- select(data, subject, activity, matches("(mean|std)\\(.*\\)"))
 
 ## Completed Steps 2 and 3 and 4.
 
+## For step 5: Get the mean of each variable grouped by subj. and act.
+grouped_means <- summarise_each(group_by(data, subject, activity),funs(mean))
+
+## Completed Steps 5, now write the output
+
+write.table(grouped_means, file = 'summary.txt', sep = ",", row.names = FALSE)
+
 

@@ -1,5 +1,6 @@
 #Dataset
-'UCI HAR Dataset'/*
+UCI HAR Dataset/
+*.zip
 
 # History files
 .Rhistory
@@ -12,7 +13,7 @@
 
 # RStudio files
 .Rproj.user/
-.Rproj
+*.Rproj
 
 # =========================
 # Operating System Files
