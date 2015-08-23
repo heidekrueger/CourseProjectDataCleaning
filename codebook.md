@@ -6,9 +6,10 @@ Each column in the summary file contains the *average* over all observations of 
 Note that the named variables variables included in this data set are already summary statistics (mean or standard deviation) of measurements for a given observation (see below).
 
 Consider the following entry as an example:
-subject | activity |  tBodyAcc-mean-X
---------|----------|-----------------
-1       | "LAYING" | 0.22159824394
+
+| subject | activity |  tBodyAcc-mean-X |
+| ------- | -------- | ---------------- |
+| 1       | "LAYING" | 0.22159824394 |
 
 Then the value 0.22159824394 is the ** mean of the means of Body-Acceleration measurements in X direction for all observations where subject 1 was laying.
 
